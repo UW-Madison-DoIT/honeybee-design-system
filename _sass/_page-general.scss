@@ -13,6 +13,9 @@ body {
     flex-direction: row;
     height: 100vh;
   }
+  .uwds-page__sidebar {
+    box-shadow: 0 0 3px 1px rgba(0,0,0,0.2);
+  }
 	.uwds-content {
 		width: 100%;
 		box-sizing: border-box;

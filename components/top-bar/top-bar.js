@@ -13,40 +13,7 @@ export class UWDSTopBar extends HTMLElement {
     }
 
     static get observedAttributes() {
-        return [
-            'app-url',
-            'app-name',
-            'theme-name'
-        ];
-    }
-
-    /**
-     *  Web component lifecycle hook to update changed properties
-     *   - Called each time an attribute is changed, including on the initial load,
-     *     so will fire once for each attribute on first load
-     * @param {String} name The name of the attribute (e.g. "app-url")
-     * @param {String} oldValue The previous value of the attribute
-     * @param {String} newValue The new value for that attribute (e.g. "Time Reporting")
-     */
-    attributeChangedCallback(name, oldValue, newValue) {
-        // Update the attribute internally
-        
-        this[name] = newValue;
-
-        switch (name) {
-            case 'theme-name':
-                var container = this.shadowRoot.getElementById('themeText');
-                if (container) {
-                    container.innerText = newValue;
-                }
-            case 'app-name':
-                var container = this['app-text'];
-                if (container) {
-                    container.innerText = newValue;
-                }
-            case 'app-url':
-                this.updateTitle();
-        }
+        return [];
     }
 
     /**
@@ -55,22 +22,22 @@ export class UWDSTopBar extends HTMLElement {
     *   scrolling
     */
     connectedCallback() {
-        // Fall back on "theme-url" to support older implementations
-        this['app-url']     = this.getAttribute('app-url') || this.getAttribute('theme-url');
-        this['app-name']    = this.getAttribute('app-name') || 'Hello World';
-        this['theme-name']  = this.getAttribute('theme-name');
+      // Fall back on "theme-url" to support older implementations
+      this['app-url']     = this.getAttribute('app-url') || this.getAttribute('theme-url');
+      this['app-name']    = this.getAttribute('app-name') || 'Hello World';
+      this['theme-name']  = this.getAttribute('theme-name');
 
-        // Set the title on initial load
-        this.updateTitle();
+      // Set the title on initial load
+      this.updateTitle();
 
-        // Attach scroll listener
-        window.addEventListener('scroll', e => {
-            if (window.scrollY !== 0) {
-                this.shadowRoot.getElementById('uwds-top-bar').classList.add('shadow');
-            } else {
-                this.shadowRoot.getElementById('uwds-top-bar').classList.remove('shadow');
-            }
-        });
+      // Attach scroll listener
+      window.addEventListener('scroll', e => {
+        if (window.scrollY !== 0) {
+          this.shadowRoot.getElementById('uwds-top-bar').classList.add('shadow');
+        } else {
+          this.shadowRoot.getElementById('uwds-top-bar').classList.remove('shadow');
+        }
+      });
     }
 
     /**
