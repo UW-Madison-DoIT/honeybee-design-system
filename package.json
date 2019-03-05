@@ -3,5 +3,14 @@
   "version": "1.0.0",
   "description": "Public website for the UW IT Design System, by UW-Madison's Division of Information Technology",
   "author": "UW Madison",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "jekyll serve"
+  },
+  "devDependencies": {
+    "rollup": "^0.63.4",
+    "rollup-plugin-html": "^0.2.1",
+    "rollup-plugin-minify-es": "^1.1.1"
+  }
 }

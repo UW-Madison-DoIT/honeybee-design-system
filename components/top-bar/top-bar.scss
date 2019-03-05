@@ -1,0 +1,29 @@
+/* Not currently in use */
+:host([hidden]) {
+  display: none;
+}
+#uwds-top-bar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  background: var(--uwds-top-bar-bg, #c5050c);
+  font-family: var(--uwds-top-bar-font, 'Roboto', Arial, sans-serif);
+  padding: var(--uwds-gutter, 15px 30px); 
+  box-sizing: border-box;
+  max-height: 64px;
+
+  &.shadow {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2), 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12);
+  }
+
+  #uwds-top-bar__title {
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    a {
+      color: var(--uwds-white-text, #F9F9F9);
+      text-decoration: none;
+      text-transform: none; 
+  }
+}

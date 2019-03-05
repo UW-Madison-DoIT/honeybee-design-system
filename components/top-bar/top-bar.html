@@ -1,0 +1,49 @@
+<style>
+  :host([hidden]) {
+    display: none;
+  }
+  #uwds-top-bar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    background: var(--uwds-top-bar-bg, #c5050c);
+    font-family: var(--uwds-top-bar-font, 'Roboto', Arial, sans-serif);
+    padding: var(--uwds-gutter, 15px 30px); 
+    box-sizing: border-box;
+    max-height: 64px;
+  }
+  #uwds-top-bar.shadow {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2), 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12);
+  }
+  #uwds-top-bar__title {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  #uwds-top-bar__title a {
+    color: var(--uwds-white-text, #F9F9F9);
+    text-decoration: none;
+    text-transform: none; 
+  }
+</style>
+<header id='uwds-top-bar' class='uwds-top-bar'>
+  <div class='region' id='region__left'>
+      <div class='slot' id='slot__navigation'>
+          <slot id='navigation-slot' name='uwds-navigation' />
+      </div>
+      <div id='title'>
+          <h1 id='uwds-top-bar__title'></h1>
+      </div>
+  </div>
+  <div class='region' id='region__right'>
+      <div class='slot' id='slot__help'>
+          <slot id='help-slot' name='uwds-help' />
+      </div>
+      <div class='slot' id='slot__notifications'>
+          <slot id='notifications-slot' name='uwds-notifications' />
+      </div>
+      <div class='slot' id='slot__profile'>
+          <slot id='profile-slot' name='uwds-profile' />
+      </div>
+  </div>
+</header>
