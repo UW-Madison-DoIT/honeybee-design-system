@@ -77,6 +77,9 @@ The advantage of this is that it's easy and low barrier to entry.
 The big disadvantage of this is that it skips locally previewing change before
 making change available to others.
 
++ [Documentation on editing on the web via GitHub][]
++ [The files you might most want to edit][docs folder in GitHub UI]
+
 ### Option 2: local editing with Docker build
 
 Good news: you can locally build and try out the documentation without locally
@@ -197,3 +200,5 @@ Copyright (c) 2019 by Board of Regents of the University of Wisconsin System.
 [Docker]: https://www.docker.com/
 [Resources]: https://uw-madison-doit.github.io/uw-it-design-system/docs/resources.html
 [GitHub Pages]: https://help.github.com/en/categories/github-pages-basics
+[Documentation on editing on the web via GitHub]: https://help.github.com/en/articles/managing-files-on-github
+[docs folder in GitHub UI]: https://github.com/UW-Madison-DoIT/uw-it-design-system/tree/master/docs
