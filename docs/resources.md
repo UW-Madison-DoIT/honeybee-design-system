@@ -7,6 +7,10 @@ title: Resources
 
 - [UW IT Design System on Github](https://github.com/UW-Madison-DoIT/uw-it-design-system)
 
+## Design systems generally
+
+- [Design Systems book][]
+
 ## Other context
 
 - [UW-Madison Brand and Visual Identity](https://brand.wisc.edu/)
@@ -35,3 +39,4 @@ title: Resources
 [wisconsin school of business digital style guide work in progress]: https://designlibrary.wsb.wisc.edu
 [Lynda in MyUW]: https://my.wisc.edu/web/apps/details/lynda-dot-com-at-uw-madison
 [GitHub page of Git and GitHub learning resources]: https://help.github.com/en/articles/git-and-github-learning-resources
+[Design Systems book]: https://www.smashingmagazine.com/printed-books/design-systems/
