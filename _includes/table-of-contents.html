@@ -14,6 +14,17 @@
               <a class="table-of-contents__a" href="{{ site.baseurl }}{{ item.url }}">
                 {{ item.name }}
               </a>
+
+              <ul class="table-of-contents__ul">
+                {% for i in item.sub-items %}
+                  <li class="table-of-contents__li">
+                    <a class="table-of-contents__a" href="{{ site.baseurl }}{{ item.url }}{{ i.url }}">
+                      {{ i.name }}
+                    </a>  
+                  </li>
+                {% endfor %}
+              </ul>
+
             </li>
           {% endfor %}
         </ul>

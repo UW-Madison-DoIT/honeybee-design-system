@@ -1,9 +1,4 @@
-.uwds_vertical-nav{
-    position: fixed;
-    bottom: 10%;
-    right: 10%;
-
-
+.uwds-vertical-nav{
     &__list-item{
         list-style: none;
     }
@@ -11,7 +6,7 @@
     &__list-link:link,
     &__list-link:visited{
 
-        color: grey;
+        color: #fff;
         text-decoration: none;
         display: block;
         padding: .5rem 0;
@@ -23,11 +18,7 @@
     }
 }
 
-// TESTING
-.content-section{
-    position: relative;
-    width: 70%;
-    padding: 1rem;
-}
+
+
 
 
