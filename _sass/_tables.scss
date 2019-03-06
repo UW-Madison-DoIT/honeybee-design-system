@@ -8,20 +8,20 @@ table {
 
     thead th {
       vertical-align: bottom;
-      border-bottom: 3px solid $uw-gray-blue-bg;
+      border-bottom: 3px solid $color-gray-light;
       text-align: left;
     }
 
     td, th {
       padding: .75rem 1rem;
-      border-top: 1px solid $uw-gray-blue-bg;
+      border-top: 1px solid $color-gray-light;
 
       &:first-child {
-        border-left: 1px solid $uw-gray-blue-bg;
+        border-left: 1px solid $color-gray-light;
       }
 
       &:last-child {
-        border-right: 1px solid $uw-gray-blue-bg;
+        border-right: 1px solid $color-gray-light;
       }
     }
 
@@ -31,7 +31,7 @@ table {
         padding-left: 0;
       }
       tr:last-child {
-        border-bottom: 1px solid $uw-gray-blue-bg;
+        border-bottom: 1px solid $color-gray-light;
       }
     }
   }
