@@ -146,7 +146,7 @@ browser caching so that your browser will reflect the changed pages.
 #### Step 5: Offer the change upstream via a Pull Request
 
 Once you have locally crafted a change that you'd like to offer as a
-contribution, offer it upstream via a GitHub Pull Request.
+contribution, offer it upstream via a [GitHub Pull Request][].
 
 Tip: See [Resources][] for leads on learning Git and GitHub.
 
@@ -202,3 +202,4 @@ Copyright (c) 2019 by Board of Regents of the University of Wisconsin System.
 [GitHub Pages]: https://help.github.com/en/categories/github-pages-basics
 [Documentation on editing on the web via GitHub]: https://help.github.com/en/articles/managing-files-on-github
 [docs folder in GitHub UI]: https://github.com/UW-Madison-DoIT/uw-it-design-system/tree/master/docs
+[GitHub Pull Request]: https://help.github.com/en/articles/proposing-changes-to-your-work-with-pull-requests
