@@ -12,6 +12,13 @@
       url: /docs/components/top-bar.html
     - name: Navigation
       url: /docs/components/navigation.html
+      sub-items:
+        - name: Dos and Don'ts
+          url: '#dos-and-donts'
+        - name: Values
+          url: '#values'
+        - name: Accessibility
+          url: '#accessibility'
 - name: Resources
   url: /docs/resources.html
 - name: Acknowledgements

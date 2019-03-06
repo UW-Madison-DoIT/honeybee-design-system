@@ -106,7 +106,7 @@ _you are not meant to type in the $_).
 $ cd
 $ mkdir uw-it-design-system-work
 $ cd uw-it-design-system-work
-$ git clone git clone https://github.com/UW-Madison-DoIT/uw-it-design-system.git
+$ git clone https://github.com/UW-Madison-DoIT/uw-it-design-system.git
 $ cd uw-it-design-system
 ```
 
@@ -159,6 +159,32 @@ To run the site locally, use: `jekyll serve`
 Hint: when that doesn't work, try `bundle exec jekyll serve` .
 
 The site will be available at http://127.0.0.1:4000/uw-it-design-system/
+
+## View Modes
+
+The "Design | Develop" view modes toggle is automatically included on the component layout.
+```
+---
+layout: component
+title: Typography
+---
+```
+
+Use a capture group to assign content to a specific view. In the example below, we use the capture group `{% capture designer %}` to assign designer specific content to the design view mode.
+
+```
+{% capture designer %}
+	Designer specific content goes here...
+{% endcapture %}
+{% include view-mode.html designer=designer %}
+
+{% capture developer %}
+	Developer specific content goes here...
+{% endcapture %}
+{% include view-mode.html developer=developer %}
+
+```
+
 
 ## View Modes
 
