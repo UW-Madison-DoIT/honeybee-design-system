@@ -9,8 +9,10 @@
       </div>
       <div class="uwds-page__body">
         <div class="uwds-page__body__column">
-          <h1>{{ page.title }}</h1>
-          {{ content }}
+            <div class="uwds-page__body__column__content">
+              <h1>{{ page.title }}</h1>
+                {{ content }}
+            </div>
         </div>
         {% include footer.html %}
       </div>

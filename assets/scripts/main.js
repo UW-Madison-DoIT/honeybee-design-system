@@ -69,6 +69,4 @@ function getCookie(cname) {
 
 $('#menu-toggle').on('click', function(){
 	$('.uwds-page__sidebar').toggleClass('active');
-	$('body').toggleClass('no-scroll');
-
 });
