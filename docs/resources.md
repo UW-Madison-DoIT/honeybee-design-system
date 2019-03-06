@@ -27,9 +27,11 @@ title: Resources
 
 ## Learning Git and GitHub
 
+- [GitHub page of Git and GitHub learning resources][]
 - [GitHub Learning Lab](https://lab.github.com/)
 - [CodeSchool Git Real](https://www.pluralsight.com/courses/code-school-git-real)
 - Git content in [Lynda.com][Lynda in MyUW]
 
 [wisconsin school of business digital style guide work in progress]: https://designlibrary.wsb.wisc.edu
 [Lynda in MyUW]: https://my.wisc.edu/web/apps/details/lynda-dot-com-at-uw-madison
+[GitHub page of Git and GitHub learning resources]: https://help.github.com/en/articles/git-and-github-learning-resources
