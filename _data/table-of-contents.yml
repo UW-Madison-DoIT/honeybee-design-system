@@ -8,8 +8,8 @@
 - name: Components
   url: /docs/components
   items:
-    - name: Toolbar
-      url: /docs/components/toolbar.html
+    - name: Top bar
+      url: /docs/components/top-bar.html
     - name: Navigation
       url: /docs/components/navigation.html
       sub-items:

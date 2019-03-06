@@ -1,0 +1,50 @@
+<table class="table--developer">
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Name</th>
+      <th>Usage notes</th>
+    </tr>
+  </thead>
+  <tbody>
+      {% if page.attributes %}
+      <tr>
+        <th>Attributes</th>
+        <td>
+          <ul>
+            {% for attr in page.attributes %}
+            <li>{{ attr }}</li>
+            {% endfor %}
+          </ul>
+        </td>
+        <td></td>
+      </tr>
+      {% endif %}
+      {% if page.slots %}
+      <tr>
+        <th>Slots</th>
+        <td>
+          <ul>
+            {% for slot in page.slots %}
+            <li>{{ slot }}</li>
+            {% endfor %}
+          </ul>
+        </td>
+        <td></td>
+      </tr>
+      {% endif %}
+      {% if page.cssvars %}
+      <tr>
+        <th>CSS Variables</th>
+        <td>
+          <ul>
+            {% for css in page.cssvars %}
+            <li>{{ css }}</li>
+            {% endfor %}
+          </ul>
+        </td>
+        <td></td>
+      </tr>
+      {% endif %}
+  </tbody>
+</table>
