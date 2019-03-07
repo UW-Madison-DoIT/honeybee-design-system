@@ -1,0 +1,54 @@
+- category: Primary
+  colors:
+    - value: "#C50505"
+      variable: $color-red
+    - value: "#0479A8"
+      variable: $color-blue
+    - value: "#494949"
+      variable: $color-gray-dark
+    - value: "#ADADAD"
+      variable: $color-gray-lighter
+- category: Secondary
+  colors:
+    - value: "#FFB74D"
+      variable: $color-orange-light
+    - value: "#FF9800"
+      variable: $color-orange-medium
+    - value: "#EF6C00"
+      variable: $color-orange-dark
+    - value: "#FFE082"
+      variable: $color-yellow-light
+    - value: "#FFC82C"
+      variable: $color-yellow-medium
+    - value: "#F8B700"
+      variable: $color-yellow-dark
+    - value: "#81B184"
+      variable: $color-green-light
+    - value: "#2E7D32"
+      variable: $color-green-medium
+    - value: "#1B4B1E"
+      variable: $color-green-dark
+    - value: "#D79999"
+      variable: $color-red-light
+    - value: "#9B0000"
+      variable: $color-red-dark
+    - value: "#9AC9DC"
+      variable: $color-blue-light
+    - value: "#034E6C"
+      variable: $color-blue-dark
+- category: Background
+  colors:
+    - value: "#ADADAD"
+      variable: $color-gray-light
+    - value: "#DADFE1"
+      variable: $color-gray-lighter
+    - value: "#F7F7F7"
+      variable: $color-gray-lightest
+- category: Foreground
+  colors:
+    - value: "#282728"
+      variable: $color-black-font
+    - value: "#F9F9F9"
+      variable: $color-white-font
+
+

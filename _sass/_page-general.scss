@@ -6,6 +6,7 @@ body {
 	font-size: 16px;
   line-height: 1.5;
   background: $color-gray-lightest;
+  color: $color-black-font;
   // Opacity set to 1 when WebComponentsReady event is detected (avoids flashing content)
   opacity: 0;
 
@@ -51,20 +52,22 @@ h4 {
   font-weight: 500;
 }
 
-.uwds-view-mode {
-	display: none;
-	&--toggle {
-		text-align: right;
-		color: $color-gray-dark;
-	}
-	&--toggle a {
-		text-decoration: none;
-		color: $color-gray-dark;
-	}
-	&--toggle a.active{
-		font-weight: 500;
-		color: $color-gray-dark;
-	}
+.uwds-view-mode-toggle {
+  position: absolute;
+  right: 0;
+
+  button {
+    margin: 0;
+    padding: 0;
+    background: none;
+    font-family: inherit;
+    font-size: inherit;
+    border-style: none;
+
+    &.active {
+      font-weight: bold;
+    }
+  }
 }
 
 .menu-toggle {

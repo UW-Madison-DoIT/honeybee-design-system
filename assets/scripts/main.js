@@ -12,9 +12,9 @@ $(document).ready(function() {
       // Show saved mode
       $('.uwds-view-mode[data-mode="' + viewMode + '"]').show();
       // Remove default active button class
-      $('.uwds-view-mode--toggle a').removeClass('active');
+      $('.uwds-view-mode-toggle button').removeClass('active');
       // Toggle active button class
-      $('.uwds-view-mode--toggle a[data-mode="' + viewMode + '"]').addClass(
+      $('.uwds-view-mode-toggle button[data-mode="' + viewMode + '"]').addClass(
         'active'
       );
     } else {
@@ -25,9 +25,9 @@ $(document).ready(function() {
 });
 
 // Click Toggle
-$('.uwds-view-mode--toggle a').on('click', function() {
+$('.uwds-view-mode-toggle button').on('click', function() {
   // Toggle active button class
-  $('.uwds-view-mode--toggle a').removeClass('active');
+  $('.uwds-view-mode-toggle button').removeClass('active');
   $(this).addClass('active');
   // Hide current mode
   $('.uwds-view-mode').hide();
