@@ -5,6 +5,8 @@
       url: /docs/foundations/typography.html
     - name: Colors
       url: /docs/foundations/colors.html
+    - name: Navigation patterns
+      url: /docs/foundations/navigation.html
 - name: Components
   url: /docs/components
   items:
