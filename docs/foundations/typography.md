@@ -22,7 +22,7 @@ Things to note:
 The IT Design System uses a defined [Major Second](https://type-scale.com/?size=16&scale=1.125&text=A%20Visual%20Type%20Scale&webfont=Libre+Baskerville&font-family=%27Libre%20Baskerville%27,%20serif&font-weight=400&font-family-headers=&font-weight-headers=inherit&background-color=white&font-color=#333) type scale that has been rounded to the nearest whole pixel. Using sizes from this scale will help create a hierarchy and consistency throughout your applications. Font sizes should not fall below 14pt (0.875rem). 
 
 ### Typescale Examples
-
+{% include typography-table.html%}
 
 
 ### Typographic Treatments
@@ -60,12 +60,6 @@ Body: Body text comes in two sizes, and it’s typically used for long-form writ
 Button: Button text is a call to action used different types of buttons (such as text, outlined and contained buttons) and in tabs, dialogs, and cards.
 
 Links: Links are blue and underlined by default.
-
-
-
-### Values
-
-{% include typography-table.html%}
 
 {% endcapture %}
 {% include view-mode.html designer=designer %}
