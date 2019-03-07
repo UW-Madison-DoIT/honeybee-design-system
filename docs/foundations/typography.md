@@ -5,7 +5,8 @@ title: Typography
 
 {% capture designer %}
 
-Use the type scale to apply consistent typographic design.
+We use the style and appearance of our accessible text to ensure it's legible,
+readable, accessible and visually appealing.
 
 ### Typefaces
 
