@@ -9,7 +9,9 @@ Use the type scale to apply consistent typographic design.
 
 ### Typefaces
 
-The UW Madison Design System uses exclusively `Roboto`. The type was chosen
+The IT Design System uses the [Roboto][] typeface.
+
+The type was chosen
 because it is flexible, accessible and free to use, which is necessary to
 accommodate projects across UW’s campus.
 
@@ -41,3 +43,5 @@ SOME KIND OF DEMONSTRATIVE EXAMPLE GOES HERE
 	Developer specific content
 {% endcapture %}
 {% include view-mode.html developer=developer %}
+
+[Roboto]: https://fonts.google.com/specimen/Roboto
