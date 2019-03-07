@@ -10,7 +10,7 @@
       {% if section.items %}
         <ul class="table-of-contents__ul">
           {% for item in section.items %}
-            <li class="table-of-contents__li">
+            <li class="table-of-contents__li {% if page.url == item.url %}active{% endif %}">
               <a class="table-of-contents__a" href="{{ site.baseurl }}{{ item.url }}">
                 {{ item.name }}
               </a>
