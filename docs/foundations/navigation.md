@@ -34,7 +34,7 @@ Menus display lists of related and unrelated options. Menus appear when a user t
 
 #### Accessibility
 
-[copy]
+\[copy]
 
 #### Why we chose this
 
