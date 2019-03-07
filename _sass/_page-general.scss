@@ -2,8 +2,8 @@
   Styles to govern general content of pages (e.g. HTML coverted from Markdown)
 */
 body {
-	font-family: $font-family-text;
-	font-size: 16px;
+  font-family: $font-family-text;
+  font-size: 16px;
   line-height: 1.5;
   background: $color-gray-lightest;
   color: $color-black-font;
@@ -32,24 +32,32 @@ h1 {
   font-size: 2rem;
   line-height: 1.25;
   font-weight: 400;
+  margin-top: 0;
+  padding-top: 1em;
 }
 
 h2 {
   font-size: 1.5rem;
   line-height: 1.25;
   font-weight: 400;
+  margin-top: 0;
+  padding-top: 1em;
 }
 
 h3 {
   font-size: 1.25rem;
   line-height: 1.25;
   font-weight: 500;
+  margin-top: 0;
+  padding-top: 1em;
 }
 
 h4 {
   font-size: 1.125rem;
   line-height: 1.25;
   font-weight: 500;
+  margin-top: 0;
+  padding-top: 1em;
 }
 
 .uwds-view-mode-toggle {
