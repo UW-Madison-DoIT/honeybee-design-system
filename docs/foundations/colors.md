@@ -59,10 +59,14 @@ When alternating between tones, be sure to monitor contrast between adjacent
 colors. (Use the <a href="https://webaim.org/resources/contrastchecker/" 
 target="_blank">WebAIM Contrast Checker</a> tool to check accessibility.)
 
+{% include colors.html category="Background" %}
+
 ### Foreground
 
 These colors are used largely for foreground text or defining features on an 
 icon.
+
+{% include colors.html category="Foreground" %}
 
 ### Color combinations
 

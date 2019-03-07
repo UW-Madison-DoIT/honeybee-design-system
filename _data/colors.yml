@@ -36,4 +36,19 @@
       variable: $color-blue-light
     - value: "#034E6C"
       variable: $color-blue-dark
+- category: Background
+  colors:
+    - value: "#ADADAD"
+      variable: $color-gray-light
+    - value: "#DADFE1"
+      variable: $color-gray-lighter
+    - value: "#F7F7F7"
+      variable: $color-gray-lightest
+- category: Foreground
+  colors:
+    - value: "#282728"
+      variable: $color-black-font
+    - value: "#F9F9F9"
+      variable: $color-white-font
+
 
