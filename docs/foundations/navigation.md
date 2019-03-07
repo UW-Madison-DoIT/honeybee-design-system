@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Navigation
 ---
 Navigation allows users to move across, into, and back out from the different pieces of content within the app.
