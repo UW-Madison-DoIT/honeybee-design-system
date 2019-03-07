@@ -10,7 +10,7 @@ readable, accessible and visually appealing.
 
 ### Typefaces
 
-The IT Design System uses the [Roboto][] typeface.
+The IT Design System uses the [Roboto](https://fonts.google.com/specimen/Roboto) typeface.
 
 Things to note:
 
@@ -70,5 +70,3 @@ Links: Links are blue and underlined by default.
 	Developer specific content
 {% endcapture %}
 {% include view-mode.html developer=developer %}
-
-[Roboto]: https://fonts.google.com/specimen/Roboto
