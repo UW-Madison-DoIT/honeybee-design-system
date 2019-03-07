@@ -1,10 +1,5 @@
 {% for section in site.data.colors %}
-
 {% if section.category == include.category %}
-<section>
-
-    <h3>{{ section.category }}</h3>
-
     {% if section.colors %}
     <div class="uwds-card-container">
         {% for color in section.colors %}
@@ -18,7 +13,5 @@
         {% endfor %}
     </div>
     {% endif %}
-</section>
 {% endif %}
-
 {% endfor %}

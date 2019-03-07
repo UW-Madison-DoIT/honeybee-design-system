@@ -33,6 +33,8 @@ across campus apps.
 
 The primary colors should be used in all applications.
 
+{% include colors.html category="Primary" %}
+
 ### Secondary
 
 The secondary color palette is designed to provide creative flexibility. These 
@@ -47,6 +49,8 @@ and never draw the eye to more than one piece of information at a time.
 - **Red** is often used for error message icons or in a small amount of text. Be
   aware that too much red is distracting and alarming for users, impairing 
   focus on a page.
+
+{% include colors.html category="Secondary" %}
 
 ### Background
 
@@ -76,4 +80,4 @@ your design decisions.
 Each component will have a specific color use. Refer to specific components 
 regarding usage. 
 
-{% include colors.html category="Primary" %}
+
