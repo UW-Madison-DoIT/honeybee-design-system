@@ -3,7 +3,6 @@ layout: default
 title: Example of do-this-not-that component
 ---
 
-
 {% capture totally_do_this %}
 Labels are intended to look like this
 {% endcapture %}

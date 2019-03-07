@@ -16,15 +16,15 @@ The type was chosen
 because it is flexible, accessible and free to use, which is necessary to
 accommodate projects across UW’s campus.
 
-+ Primary Font: Roboto
-+ Fallback Fonts: Helvetica, Arial
-+ Title Font: Verlag
+- Primary Font: Roboto
+- Fallback Fonts: Helvetica, Arial
+- Title Font: Verlag
 
 ### General Guidelines
 
-+ Never end a header or label with a period (.)
-+ Only use a period (.) for sentences, paragraphs, and copy.
-+ Avoid use of all caps wherever possible.
+- Never end a header or label with a period (.)
+- Only use a period (.) for sentences, paragraphs, and copy.
+- Avoid use of all caps wherever possible.
 
 OPPORTUNITY FOR DO-THIS-NOT-THAT EXAMPLE HERE.
 
@@ -41,7 +41,7 @@ SOME KIND OF DEMONSTRATIVE EXAMPLE GOES HERE
 {% include view-mode.html designer=designer %}
 
 {% capture developer %}
-	Developer specific content
+Developer specific content
 {% endcapture %}
 {% include view-mode.html developer=developer %}
 
