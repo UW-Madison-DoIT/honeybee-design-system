@@ -33,6 +33,8 @@ across campus apps.
 
 The primary colors should be used in all applications.
 
+{% include colors.html category="Primary" %}
+
 ### Secondary
 
 The secondary color palette is designed to provide creative flexibility. These 
@@ -48,6 +50,8 @@ and never draw the eye to more than one piece of information at a time.
   aware that too much red is distracting and alarming for users, impairing 
   focus on a page.
 
+{% include colors.html category="Secondary" %}
+
 ### Background
 
 These colors are used largely for background blocks and large content areas. 
@@ -55,10 +59,14 @@ When alternating between tones, be sure to monitor contrast between adjacent
 colors. (Use the <a href="https://webaim.org/resources/contrastchecker/" 
 target="_blank">WebAIM Contrast Checker</a> tool to check accessibility.)
 
+{% include colors.html category="Background" %}
+
 ### Foreground
 
 These colors are used largely for foreground text or defining features on an 
 icon.
+
+{% include colors.html category="Foreground" %}
 
 ### Color combinations
 
@@ -75,18 +83,5 @@ your design decisions.
 
 Each component will have a specific color use. Refer to specific components 
 regarding usage. 
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
