@@ -3,12 +3,9 @@
 
   &__column {
     margin-right: auto;
+    margin-left: auto;
+    max-width: $body-max-width;
     padding: $gutter;
-
-    &__content {
-      max-width: $body-max-width;
-      position: relative;
-    }
   }
 }
 
