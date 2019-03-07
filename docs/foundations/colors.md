@@ -90,3 +90,25 @@ regarding usage.
 
 
 
+{% for section in site.data.colors %}
+
+<section> 
+
+<h3>{{ section.category }}</h3>
+
+        {% if section.colors %}
+<div class="uwds-card-container">
+        {% for color in section.colors %}
+        <div class="uwds-card-container__card">
+            <div class="uwds-card-container__card__image" style="background-color: {{ color.value }}"></div>
+            <div class="uwds-card-container__card__body">
+                <p>{{ color.variable }}</p>
+                <p>{{ color.value }}</p>  
+            </div>
+        </div>
+    {% endfor %}
+</div>
+        {% endif %}
+</section>
+
+{% endfor %}
