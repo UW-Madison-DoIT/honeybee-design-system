@@ -7,6 +7,8 @@ body {
 	letter-spacing: .05em;
   line-height: 1.65em;
   background: $color-gray-lightest;
+  // Opacity set to 1 when WebComponentsReady event is detected (avoids flashing content)
+  opacity: 0;
 
   .uwds-content-wrapper {
     display: flex;
