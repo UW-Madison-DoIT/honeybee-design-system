@@ -1,22 +1,36 @@
 ---
 layout: component
 title: Top bar
+tagname: uwds-top-bar
 attributes:
-  - app-name: Set the app title text
-  - app-url: Set the url for the title to link to
-  - theme-name: Prefix the app title with a theme name
+  - name: 'app-name'
+    note: 'Set the app title text'
+  - name: 'app-url'
+    note: 'Set the url for the title to link to'
+  - name: 'theme-name'
+    note: 'Prefix the app title with a theme name'
 slots:
-  - uwds-navigation: Include a side-navigation toggle button
-  - uwds-help: Include a help & feedback icon button
-  - uwds-notifications: Include a notifications bell
-  - uwds-profile: Include a profile button/menu
-cssvars: 
-  - uwds-top-bar-bg: Sets background color
-  - uwds-top-bar-color: Sets text color for top-bar elements
-  - uwds-top-bar-font: Sets font face of the app-name
-  - uwds-top-bar-font-weight: Sets font weight of the app-name
-  - uwds-top-bar-depth: Sets the z-index
-  - theme-name-font-weight: Sets font-weight for the theme-name
+  - name: 'uwds-navigation'
+    note: 'Include a side-navigation toggle button'
+  - name: 'uwds-help'
+    note: 'Include a help & feedback icon button'
+  - name: 'uwds-notifications'
+    note: 'Include a notifications bell'
+  - name: 'uwds-profile'
+    note: 'Include a profile button/menu'
+cssvars:
+  - name: '--uwds-top-bar-bg'
+    note: 'Sets background color'
+  - name: '--uwds-top-bar-color'
+    note: 'Sets text color for top-bar elements'
+  - name: '--uwds-top-bar-font'
+    note: 'Sets font face of the app-name'
+  - name: '--uwds-top-bar-font-weight'
+    note: 'Sets font weight of the app-name'
+  - name: '--uwds-top-bar-depth'
+    note: 'Sets the z-index'
+  - name: '--theme-name-font-weight'
+    note: 'Sets font-weight for the theme-name'
 ---
 
 {% capture designer %}
@@ -33,11 +47,11 @@ Designer specific content goes here...
       theme-name="MyUW"
       app-name="Shiny New App"
       app-url="#">
-      <i slot="uwds-help" 
-        style="margin: 0; height: 3rem; width: 4rem; font-size: 1.8rem; cursor: pointer; line-height: 3rem; text-align: center;" 
+      <i slot="uwds-help"
+        style="margin: 0; height: 3rem; width: 4rem; font-size: 1.8rem; cursor: pointer; line-height: 3rem; text-align: center;"
         class="material-icons">settings</i>
-      <i slot="uwds-notifications" 
-      style="margin: 0; height: 3rem; width: 4rem; font-size: 1.8rem; cursor: pointer; line-height: 3rem; text-align: center;" 
+      <i slot="uwds-notifications"
+      style="margin: 0; height: 3rem; width: 4rem; font-size: 1.8rem; cursor: pointer; line-height: 3rem; text-align: center;"
       class="material-icons">notifications_none</i>
       <span slot="uwds-profile" style="cursor:pointer; margin:0 0.5rem; width: 4rem;">LOGIN</span>
     </uwds-top-bar>
@@ -67,7 +81,7 @@ Designer specific content goes here...
 
 1. Download or copy the [top-bar.min.mjs](https://github.com/UW-Madison-DoIT/uwds-components/tree/master/dist/top-bar) file from the uwds-components project on Github
 2. Add the script to your project directory
-3. Include the script on your page: 
+3. Include the script on your page:
 ```html
   <script type="module" src="your/path/top-bar.min.mjs"></script>
 ```

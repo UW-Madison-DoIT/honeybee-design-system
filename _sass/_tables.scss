@@ -24,6 +24,10 @@ table {
       &:last-child {
         border-right: 1px solid $color-gray-light;
       }
+
+      code {
+        font-weight: 400;
+      }
     }
 
     tbody {
