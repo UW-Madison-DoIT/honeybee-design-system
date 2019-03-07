@@ -1,0 +1,32 @@
+.uwsd-typography-table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 2rem 0;
+    
+    tr{
+        transition: all .2s;
+        &:not(.nohover):hover{
+            background-color: $color-red;
+            color: #fff; 
+        }
+
+        &:last-child td{
+            border-bottom: 0;
+        }
+    }
+
+    td{
+        border-bottom: 1px solid $color-gray-lighter;
+    }
+    
+    th{
+        color: $color-red-dark;
+        border-bottom: 1px solid $color-gray-light; 
+    }
+
+    th,td{
+        text-align: left;
+        padding: 1rem .5rem;
+    }
+    
+}
