@@ -4,3 +4,34 @@
 uwds-top-bar {
   --uwds-top-bar-font: 'Verlag';
 }
+
+.uwds-page-header {
+  &__button {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    min-height: 42px;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border-radius: 3px;
+    border-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: rgba(0,0,0,0.12);
+    }
+
+    .material-icons {
+      font-size: 24px;
+    }
+
+    @media screen and (min-width: 640px) {
+      display: none;
+    }
+  }
+}
