@@ -10,8 +10,8 @@
   items:
     - name: Top bar
       url: /docs/components/top-bar.html
-    - name: Navigation
-      url: /docs/components/navigation.html
+    - name: Navigation Drawer
+      url: /docs/components/navigation-drawer.html
       sub-items:
         - name: Dos and Don'ts
           url: '#dos-and-donts'
