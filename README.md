@@ -11,7 +11,7 @@ View the website at https://uw-madison-doit.github.io/uw-it-design-system/
 ### How the website works
 
 In general this is a website generated via the Jekyll static site generator as
-provided software--as-a-service in GitHub Pages.
+provided software-as-a-service in [GitHub Pages][].
 
 That means there's source code for the site (text files and assets) that a
 program (Jekyll) tranforms into a website (generated HTML files) that GitHub
@@ -63,6 +63,8 @@ a templating language called Liquid).
 
 For instance, `do-this-not-that.html` defines the `do-this-not-that` include.
 
+See also: [README in includes](./_includes/README.md)
+
 ### How you can edit
 
 ### Option 1: online editing
@@ -73,7 +75,10 @@ anything.
 The advantage of this is that it's easy and low barrier to entry.
 
 The big disadvantage of this is that it skips locally previewing change before
-that change would hit the public website.
+making change available to others.
+
++ [Documentation on editing on the web via GitHub][]
++ [The files you might most want to edit][docs folder in GitHub UI]
 
 ### Option 2: local editing with Docker build
 
@@ -141,7 +146,9 @@ browser caching so that your browser will reflect the changed pages.
 #### Step 5: Offer the change upstream via a Pull Request
 
 Once you have locally crafted a change that you'd like to offer as a
-contribution, offer it upstream via a GitHub Pull Request.
+contribution, offer it upstream via a [GitHub Pull Request][].
+
+Tip: See [Resources][] for leads on learning Git and GitHub.
 
 ### Option 3: local editing with local Jekyll
 
@@ -217,3 +224,8 @@ Use a capture group to assign content to a specific view. In the example below, 
 Copyright (c) 2019 by Board of Regents of the University of Wisconsin System.
 
 [Docker]: https://www.docker.com/
+[Resources]: https://uw-madison-doit.github.io/uw-it-design-system/docs/resources.html
+[GitHub Pages]: https://help.github.com/en/categories/github-pages-basics
+[Documentation on editing on the web via GitHub]: https://help.github.com/en/articles/managing-files-on-github
+[docs folder in GitHub UI]: https://github.com/UW-Madison-DoIT/uw-it-design-system/tree/master/docs
+[GitHub Pull Request]: https://help.github.com/en/articles/proposing-changes-to-your-work-with-pull-requests

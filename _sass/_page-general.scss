@@ -2,48 +2,50 @@
   Styles to govern general content of pages (e.g. HTML coverted from Markdown)
 */
 body {
-	font-family: "Roboto", Tahoma, sans-serif;
+	font-family: $font-family-text;
 	font-size: 16px;
 	letter-spacing: .05em;
   line-height: 1.65em;
   background: $color-gray-lightest;
+  // Opacity set to 1 when WebComponentsReady event is detected (avoids flashing content)
+  opacity: 0;
 
   .uwds-content-wrapper {
     display: flex;
     flex-direction: row;
     height: 100vh;
   }
-	.uwds-content {
-		width: 100%;
-		box-sizing: border-box;
-	}
+  .uwds-content {
+    width: 100%;
+    box-sizing: border-box;
+  }
   main {
     margin: 2rem 3rem 6rem;
   }
 }
 
 h1 {
-	font-size: 2rem;
-	line-height: 1.17;
-	font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.17;
+  font-weight: 400;
 }
 
 h2 {
-	font-size: 1.5rem;
-	line-height: 1.33;
-	font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.33;
+  font-weight: 400;
 }
 
 h3 {
-	font-size: 1.25rem;
-	line-height: 1.6;
-	font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  font-weight: 500;
 }
 
 h4 {
-	font-size: 1.125rem;
-	line-height: 1.66;
-	font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.66;
+  font-weight: 500;
 }
 
 .uwds-view-mode {
@@ -62,9 +64,8 @@ h4 {
 	}
 }
 
-.menu-toggle{
-
-	@media screen and (min-width: $breakpoint-medium){
-			display: none;
-	}
+.menu-toggle {
+  @media screen and (min-width: $breakpoint-medium) {
+    display: none;
+  }
 }
