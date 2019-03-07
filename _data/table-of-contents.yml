@@ -3,15 +3,31 @@
   items:
     - name: Typography
       url: /docs/foundations/typography.html
+      sub-items:
+        - name: Typefaces
+          url: '#typefaces'
+        - name: Scale
+          url: '#type-scale'
+        - name: Treatments
+          url: '#typographic-treatments'
+        - name: Usage
+          url: '#usage'
     - name: Colors
       url: /docs/foundations/colors.html
+      sub-items:
+        - name: General guidelines
+          url: '#general-guidelines'
+        - name: Color combinations
+          url: '#color-combinations'
+    - name: Navigation
+      url: /docs/foundations/navigation.html
 - name: Components
   url: /docs/components
   items:
     - name: Top bar
       url: /docs/components/top-bar.html
-    - name: Navigation
-      url: /docs/components/navigation.html
+    - name: Navigation Drawer
+      url: /docs/components/navigation-drawer.html
       sub-items:
         - name: Dos and Don'ts
           url: '#dos-and-donts'

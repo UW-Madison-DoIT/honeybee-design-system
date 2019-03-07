@@ -25,6 +25,37 @@
     font-size: 1rem;
   }
 
+  &__li {
+    ul.table-of-contents__ul {
+      display: none;
+    }
+
+    &.active {
+      > a {
+        font-weight: 600;
+      }
+
+      ul.table-of-contents__ul {
+        display: block;
+        margin-left: 20px;
+
+        li {
+          border-left: 3px solid $color-gray-light;
+          padding-left: 0.5rem;
+
+          &.sub-item--active {
+            border-color: $color-gray-dark;
+          }
+
+          + li {
+            margin-top: 0;
+            padding-top: 0.8rem;
+          }
+        }
+      }
+    }
+  }
+
   &__li + &__li {
     margin-top: 12px;
   }
