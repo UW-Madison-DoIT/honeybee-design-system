@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-	{% include head.html %}
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} | UW IT Design System</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
+    <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" />
+  </head>
   <body>
     <div class="uwds-page">
       {% include header.html %}
@@ -9,14 +18,26 @@
       </div>
       <div class="uwds-page__body">
         <div class="uwds-page__body__column">
-            <div class="uwds-page__body__column__content">
-              <h1>{{ page.title }}</h1>
-                {{ content }}
-            </div>
+          <div class="uwds-page__body__column__content">
+            {{ content }}
+          </div>
         </div>
-        {% include footer.html %}
+        <footer class="uwds-page__sidebar__footer">
+          <small>{{ site.copyright }}</small>
+        </footer>
       </div>
     </div>
-    {% include scripts.html %}
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/scripts/vendor/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/scripts/main.js"></script>
+
+    <!-- Web components -->
+    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
+    <script type="module" src="{{ site.baseurl }}/assets/scripts/vendor/top-bar.min.mjs"></script>
+
+    <script>
+      document.addEventListener('WebComponentsReady', function() {
+        document.body.style.opacity = 1;
+      });
+    </script>
   </body>
 </html>
