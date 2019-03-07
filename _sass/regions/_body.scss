@@ -1,13 +1,15 @@
-.uwds-page__body{
+.uwds-page__body {
   overflow-y: auto;
-  
-    &__column {
-      margin-right: auto;
-      padding: $gutter;
-      &__content {
-        max-width: $body-max-width;
-      }
+
+  &__column {
+    margin-right: auto;
+    padding: $gutter;
+
+    &__content {
+      max-width: $body-max-width;
+      position: relative;
     }
+  }
 }
 
 @media screen and (min-width: $breakpoint-medium) {
@@ -17,7 +19,5 @@
     left: $sidebar-width;
     right: 0;
     bottom: 0;
-    
   }
-
 }
