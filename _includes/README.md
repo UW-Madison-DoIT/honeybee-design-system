@@ -6,11 +6,11 @@ To use the do this, not that idiom, use the `do-this-not-that` `include`.
 
 Do and do not examples consist of:
 
-+ the positive example
-+ a phrase describing the positive example. The template will prepend "Do " to
+- the positive example
+- a phrase describing the positive example. The template will prepend "Do " to
   this phrase.
-+ the negative example
-+ a phrase describing the negative example. The template will prepand "Don't "
+- the negative example
+- a phrase describing the negative example. The template will prepand "Don't "
   to this phrase.
 
 First, capture the examples
