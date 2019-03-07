@@ -34,6 +34,10 @@ SOME KIND OF DEMONSTRATIVE EXAMPLE GOES HERE
 <h5>H5: The quick brown fox jumps over the lazy dog</h5>
 <h6>H6: The quick brown fox jumps over the lazy dog</h6>
 
+### Values
+
+{% include typography-table.html%}
+
 {% endcapture %}
 {% include view-mode.html designer=designer %}
 
