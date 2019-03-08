@@ -1,6 +1,11 @@
 <div class="uwds-card-container__card">
-  <div class="uwds-card-container__card__image"
-    style="background-color: {{ include.value }}"></div>
+  <div class="uwds-card-container__card__image" style="background-color: {{ include.value }}">
+ {% if color.foreground-colors %}
+ {% for foreground in color.foreground-colors %}
+ <span class="uwds-card-container__card__image__overlay" style="background-color: {{ foreground }}"></span>
+  {% endfor %}
+{% endif %}
+  </div>
   <div class="uwds-card-container__card__body">
     <p>{{ include.variable }}</p>
     <p>{{ include.value }}</p>
