@@ -2,53 +2,74 @@
   colors:
     - value: "#C50505"
       variable: $color-red
+      foreground-colors: ['#F9F9F9']
     - value: "#0479A8"
       variable: $color-blue
+      foreground-colors: ['#F9F9F9']
     - value: "#494949"
       variable: $color-gray-dark
+      foreground-colors: ['#F9F9F9']
     - value: "#ADADAD"
       variable: $color-gray-lighter
+      foreground-colors: ['#282728']
 - category: Secondary
   colors:
     - value: "#FFB74D"
       variable: $color-orange-light
+      foreground-colors: ['#282728']
     - value: "#FF9800"
       variable: $color-orange-medium
+      foreground-colors: ['#282728']
     - value: "#EF6C00"
       variable: $color-orange-dark
+      foreground-colors: ['#282728', '#F9F9F9']
     - value: "#FFE082"
       variable: $color-yellow-light
+      foreground-colors: ['#282728']
     - value: "#FFC82C"
       variable: $color-yellow-medium
+      foreground-colors: ['#282728']
     - value: "#F8B700"
+      foreground-colors: ['#282728']
       variable: $color-yellow-dark
     - value: "#81B184"
+      foreground-colors: ['#282728']
       variable: $color-green-light
+      foreground-colors: ['#282728']
     - value: "#2E7D32"
       variable: $color-green-medium
+      foreground-colors: ['#F9F9F9']
     - value: "#1B4B1E"
       variable: $color-green-dark
+      foreground-colors: ['#F9F9F9']
     - value: "#D79999"
       variable: $color-red-light
+      foreground-colors: ['#282728']
     - value: "#9B0000"
       variable: $color-red-dark
+      foreground-colors: ['#F9F9F9']
     - value: "#9AC9DC"
       variable: $color-blue-light
+      foreground-colors: ['#282728']
     - value: "#034E6C"
       variable: $color-blue-dark
+      foreground-colors: ['#F9F9F9']
 - category: Background
   colors:
     - value: "#ADADAD"
       variable: $color-gray-light
+      foreground-colors: ['#282728']
     - value: "#DADFE1"
       variable: $color-gray-lighter
+      foreground-colors: ['#282728']
     - value: "#F7F7F7"
       variable: $color-gray-lightest
+      foreground-colors: ['#282728']
 - category: Foreground
   colors:
     - value: "#282728"
       variable: $color-black-font
+      foreground-colors: ['#F9F9F9']
     - value: "#F9F9F9"
       variable: $color-white-font
-
-
+      foreground-colors: ['#282728']
