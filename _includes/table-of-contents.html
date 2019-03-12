@@ -17,7 +17,7 @@
 
               <ul class="table-of-contents__ul">
                 {% for i in item.sub-items %}
-                  <li class="table-of-contents__li">
+                  <li class="table-of-contents__li" aria-labelledby="{{i.name}}">
                     <a class="table-of-contents__a" href="{{ site.baseurl }}{{ item.url }}{{ i.url }}">
                       {{ i.name }}
                     </a>
