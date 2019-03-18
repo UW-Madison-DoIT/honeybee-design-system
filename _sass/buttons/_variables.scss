@@ -1,0 +1,25 @@
+@import '../variables';
+
+$uwds-button-height: 36px !default;
+$uwds-compact-button-height: 32px !default;
+$uwds-button-horizontal-padding: 8px !default;
+$uwds-button-contained-horizontal-padding: 16px !default;
+$uwds-button-radius: 3px !default;
+
+//Transitions
+$uwds-button-transition: box-shadow .28s cubic-bezier(.4,0,.2,1),-webkit-box-shadow .28s cubic-bezier(.4,0,.2,1);
+
+// Elevations
+$uwds-button-elevation-1: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+$uwds-button-elevation-2: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+
+// Button background colors
+$uwds-button-default-bg: $color-blue;
+$uwds-button-default-hover: rgba($color-blue, 0.12);
+$uwds-button-disabled-bg: $color-gray-lighter;
+
+// Button text colors
+$uwds-button-on-default: $color-white-font;
+$uwds-button-light-color: $color-white-font;
+$uwds-button-dark-color: $color-black-font;
+$uwds-button-disabled-color: $color-gray-dark;

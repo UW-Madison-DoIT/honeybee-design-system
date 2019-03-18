@@ -16,6 +16,9 @@
 @import 'typography-table';
 @import 'cards';
 
+// Styles for design system components
+@import 'buttons/buttons';
+
 // Styles for the general page layout, sidebar
 // layout, and body content layout.
 @import 'regions/page';
