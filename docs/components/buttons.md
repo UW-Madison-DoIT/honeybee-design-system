@@ -36,13 +36,27 @@ title: Buttons
   <button class="uwds-button--outlined uwds-button--compact">Compact</button>
 
   <p>Disabled</p>
-  <button class="uwds-button" disabled>Disabled</button>
+  <button disabled>Disabled</button>
   <button class="uwds-button--compact" disabled>Compact</button>
 {% endcapture %}
 
-{% include component-demo.html demo=demo code=demo %}
+{% capture usage %}
 
-### Usage
+<h3>Minimum requirements:</h3>
+
+<ol>
+  <li>Download the <a href="#">UW IT Design System CSS</a></li>
+  <li>Use the CSS class modifier of your choice in your buttons:</li>
+    <ul>
+      <li><code>uwds-button--raised</code>: For an elevated button</li>
+      <li><code>uwds-button--flat</code>: For a button with background color and no elevation</li>
+      <li><code>uwds-button--outlined</code>: For a button with transparent background and theme-colored text</li>
+    </ul>
+</ol>
+
+{% endcapture %}
+
+{% include component-demo.html demo=demo code=demo usage=usage %}
 
 
 

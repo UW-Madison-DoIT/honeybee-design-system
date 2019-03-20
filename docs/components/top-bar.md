@@ -71,12 +71,11 @@ Designer specific content goes here...
   <p><strong>Note:</strong> The process described below is a placeholder for future self-hosting and distribution plans.</p>
 </div>
 
-1. Download or copy the [top-bar.min.mjs](https://github.com/UW-Madison-DoIT/uwds-components/tree/master/dist/top-bar) file from the uwds-components project on Github
-2. Add the script to your project directory
-3. Include the script on your page:
-```html
-  <script type="module" src="your/path/top-bar.min.mjs"></script>
-```
+<ol>
+  <li>Download or copy the [top-bar.min.mjs](https://github.com/UW-Madison-DoIT/uwds-components/tree/master/dist/top-bar) file from the uwds-components project on Github</li>
+  <li>Add the script to your project directory</li>
+  <li>Include the script on your page</li>
+</ol>
 {% endcapture %}
 
 {% capture developer %}

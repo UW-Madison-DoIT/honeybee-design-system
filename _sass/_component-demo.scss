@@ -1,7 +1,16 @@
 .uwds-demo {
+  &__demo,
+  &__usage {
+    background-color: #fff;
+    border: 1px solid $color-gray-light;
+    padding: $gutter/2 $gutter;
+  }
+
   figure.highlight {
     margin: 0;
+    border-color: $color-gray-light;
   }
+
   .uwds-demo__button {
     margin: 0;
     padding: 8px $gutter;
