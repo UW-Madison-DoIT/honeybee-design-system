@@ -1,0 +1,16 @@
+<div class="uwds-demo">
+  <button class="uwds-demo__button active" aria-label="Show demo content" onclick="toggleDemoMode(event, 'demo')">Demo</button>
+  <button class="uwds-demo__button" onclick="toggleDemoMode(event, 'code')">HTML</button>
+  <button class="uwds-demo__button" onclick="toggleDemoMode(event, 'usage')">Usage</button>
+  <div class="uwds-demo__demo" aria-label="Show HTML code">
+    {{ include.demo }}
+  </div>
+  <div class="uwds-demo__code sr-only">
+    {% highlight html %}
+      {{ include.code }}
+    {% endhighlight %}
+  </div>
+  <div class="uwds-demo__usage sr-only">
+    {{ include.usage }}
+  </div>
+</div>

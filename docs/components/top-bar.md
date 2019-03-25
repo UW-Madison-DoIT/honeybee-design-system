@@ -37,59 +37,54 @@ cssvars:
 Designer specific content goes here...
 {% endcapture %}
 
-{% capture developer %}
-
----
-
-<div class="uwds-demo">
-  <div class="uwds-demo__demo">
-    <uwds-top-bar
-      theme-name="MyUW"
-      app-name="Shiny New App"
-      app-url="#">
-      <i slot="uwds-help"
-        style="margin: 0; height: 3rem; width: 4rem; font-size: 1.8rem; cursor: pointer; line-height: 3rem; text-align: center;"
-        class="material-icons">settings</i>
-      <i slot="uwds-notifications"
+{% capture demo %}
+  <uwds-top-bar
+    theme-name="MyUW"
+    app-name="Shiny New App"
+    app-url="#">
+    <i slot="uwds-help"
       style="margin: 0; height: 3rem; width: 4rem; font-size: 1.8rem; cursor: pointer; line-height: 3rem; text-align: center;"
-      class="material-icons">notifications_none</i>
-      <span slot="uwds-profile" style="cursor:pointer; margin:0 0.5rem; width: 4rem;">LOGIN</span>
-    </uwds-top-bar>
-  </div>
-  <div class="uwds-demo__code">
-    {% highlight html %}
-      <uwds-top-bar
-        theme-name="MyUW"
-        app-name="Shiny New App"
-        app-url="/shiny-app-home-page">
+      class="material-icons">settings</i>
+    <i slot="uwds-notifications"
+    style="margin: 0; height: 3rem; width: 4rem; font-size: 1.8rem; cursor: pointer; line-height: 3rem; text-align: center;"
+    class="material-icons">notifications_none</i>
+    <span slot="uwds-profile" style="cursor:pointer; margin:0 0.5rem; width: 4rem;">LOGIN</span>
+  </uwds-top-bar>
+{% endcapture %}
 
-        <!-- Using some slots -->
-        <i slot="uwds-help" class="material-icons">settings</i>
-        <i slot="uwds-notifications" class="material-icons">notifications_none</i>
-        <button slot="uwds-profile" type="button">Login</button>
+{% capture code %}
+  <uwds-top-bar
+    theme-name="MyUW"
+    app-name="Shiny New App"
+    app-url="/shiny-app-home-page">
 
-      </uwds-top-bar>
-    {% endhighlight %}
-  </div>
-</div>
+    <!-- Using some slots -->
+    <i slot="uwds-help" class="material-icons">settings</i>
+    <i slot="uwds-notifications" class="material-icons">notifications_none</i>
+    <button slot="uwds-profile" type="button">Login</button>
 
-### Usage
+  </uwds-top-bar>
+{% endcapture %}
 
+{% capture usage %}
 <div class="uwds-beta-info">
   <p><strong>Note:</strong> The process described below is a placeholder for future self-hosting and distribution plans.</p>
 </div>
 
-1. Download or copy the [top-bar.min.mjs](https://github.com/UW-Madison-DoIT/uwds-components/tree/master/dist/top-bar) file from the uwds-components project on Github
-2. Add the script to your project directory
-3. Include the script on your page:
-```html
-  <script type="module" src="your/path/top-bar.min.mjs"></script>
-```
+<ol>
+  <li>Download or copy the [top-bar.min.mjs](https://github.com/UW-Madison-DoIT/uwds-components/tree/master/dist/top-bar) file from the uwds-components project on Github</li>
+  <li>Add the script to your project directory</li>
+  <li>Include the script on your page</li>
+</ol>
+{% endcapture %}
+
+{% capture developer %}
+---
+{% include component-demo.html demo=demo code=code usage=usage %}
 
 ### Customizations
 
 {% include component-doc-table.html %}
-
 {% endcapture %}
 
 {% include view-mode.html designer=designer %}

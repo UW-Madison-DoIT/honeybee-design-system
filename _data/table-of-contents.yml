@@ -35,6 +35,10 @@
           url: '#values'
         - name: Accessibility
           url: '#accessibility'
+    - name: Buttons
+      url: /docs/components/buttons.html
+    - name: Input
+      url: /docs/components/input.html
 - name: Resources
   url: /docs/resources.html
 - name: Acknowledgements
